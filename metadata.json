@@ -1,0 +1,6 @@
+{
+  "name": "Desi Meat Mart",
+  "description": "Premium e-commerce platform for fresh beef, premium cuts, and authentic prepared meats, with fast online ordering via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
