@@ -148,7 +148,7 @@ export default function Footer() {
             </div>
           )}
           <span className="text-[10px] text-neutral-500 leading-tight">
-            💡 <strong>Pick Up Order Option:</strong> Simply place order on WhatsApp and mention *"Pickup order at Block C"* to skip our courier queue!
+            💡 <strong>Pick Up Order Option:</strong> Simply place order on WhatsApp and mention *"Pickup order at Wah Cantt"* to skip our courier queue!
           </span>
         </div>
       </div>

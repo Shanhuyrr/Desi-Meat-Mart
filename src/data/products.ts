@@ -209,8 +209,8 @@ export const SHOP_INFO: ShopInfo = {
   name: 'Desi Meat Mart',
   phone: '0322 0591711',
   whatsappNumber: '923220591711', // Raw WhatsApp digit string
-  address: 'Commercial Block C, DHA Phase 5, Lahore, Pakistan',
-  googleMapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13611.238465492983!2d74.40938459468532!3d31.47441584992683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190623aef506d3%3A0xe54d6fc48bc96db4!2sDHA%20Phase%205%2C%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1718500000000!5m2!1sen!2s',
+  address: 'Wah Cantt, Rawalpindi, Punjab, Pakistan',
+  googleMapEmbedUrl: 'https://maps.google.com/maps?q=Wah%20Cantt,%20Punjab,%20Pakistan&t=&z=13&ie=UTF8&iwloc=&output=embed',
   email: 'orders@desimeatmart.com',
   deliveryFee: 4.99,
   freeDeliveryThreshold: 40.0,
