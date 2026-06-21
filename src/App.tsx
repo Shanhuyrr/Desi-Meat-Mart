@@ -10,6 +10,7 @@ import SpecialDeals from './components/SpecialDeals';
 import TrustBadges from './components/TrustBadges';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 import { ShoppingCart } from 'lucide-react';
 
 export default function App() {
@@ -192,6 +193,9 @@ export default function App() {
           </span>
         </button>
       )}
+
+      {/* Floating WhatsApp Button */}
+      <WhatsAppButton />
 
       {/* 6. Footer section containing FAQ/Map/Address details */}
       <Footer />
