@@ -5,13 +5,15 @@ interface HeroProps {
   onExploreClick: () => void;
 }
 
+import heroImage from '../assets/images/hero_raw_beef_1781610434288.jpg';
+
 export default function Hero({ onExploreClick }: HeroProps) {
   return (
     <div className="relative overflow-hidden bg-neutral-950 min-h-[500px] md:min-h-[580px] flex items-center" id="hero-banner">
       {/* Background Image with elegant overlay to pop the text */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_raw_beef_1781610434288.jpg"
+          src={heroImage}
           alt="Premium Fresh Raw Ribeye Steak Background"
           className="w-full h-full object-cover object-center opacity-45 scale-105"
           referrerPolicy="no-referrer"
