@@ -11,6 +11,14 @@ export const CATEGORIES = [
   { id: 'bbq-special', label: 'BBQ Special Items', icon: 'Utensils' },
 ];
 
+import heroImage from '../assets/images/hero_raw_beef_1781610434288.jpg';
+import beefKababImage from '../assets/images/beef_kabab_1781610457803.jpg';
+import chapliKababImage from '../assets/images/chapli_kabab_1781610476852.jpg';
+import beefTikkaImage from '../assets/images/beef_tikka_1781610500217.jpg';
+import beefNuggetsImage from '../assets/images/beef_nuggets_1781610542238.jpg';
+import beefQeemaImage from '../assets/images/beef_qeema_1781610523111.jpg';
+import bbqSpecialImage from '../assets/images/bbq_special_1781610562903.jpg';
+
 export const PRODUCTS: Product[] = [
   {
     id: 'ribeye-steak',
@@ -20,7 +28,7 @@ export const PRODUCTS: Product[] = [
     price: 19.99,
     originalPrice: 24.99,
     unit: '400g Cut',
-    image: '/src/assets/images/hero_raw_beef_1781610434288.jpg',
+    image: heroImage,
     isBestSeller: true,
     prepTime: '15 mins',
     spiceLevel: 0,
@@ -32,7 +40,7 @@ export const PRODUCTS: Product[] = [
     category: 'fresh-beef',
     price: 24.99,
     unit: '650g Cut',
-    image: '/src/assets/images/hero_raw_beef_1781610434288.jpg',
+    image: heroImage,
     isFeatured: true,
     prepTime: '20 mins',
     spiceLevel: 0,
@@ -45,7 +53,7 @@ export const PRODUCTS: Product[] = [
     price: 16.49,
     originalPrice: 18.00,
     unit: '500g Cut',
-    image: '/src/assets/images/hero_raw_beef_1781610434288.jpg',
+    image: heroImage,
     prepTime: '12 mins',
     spiceLevel: 0,
   },
@@ -57,7 +65,7 @@ export const PRODUCTS: Product[] = [
     price: 11.49,
     originalPrice: 13.99,
     unit: '6 Skewers (approx 450g)',
-    image: '/src/assets/images/beef_kabab_1781610457803.jpg',
+    image: beefKababImage,
     isBestSeller: true,
     prepTime: '10 mins',
     spiceLevel: 2,
@@ -69,7 +77,7 @@ export const PRODUCTS: Product[] = [
     category: 'beef-kabab',
     price: 12.49,
     unit: '6 Skewers (approx 450g)',
-    image: '/src/assets/images/beef_kabab_1781610457803.jpg',
+    image: beefKababImage,
     prepTime: '10 mins',
     spiceLevel: 1,
   },
@@ -81,7 +89,7 @@ export const PRODUCTS: Product[] = [
     price: 12.99,
     originalPrice: 15.99,
     unit: '4 Large Patties (500g)',
-    image: '/src/assets/images/chapli_kabab_1781610476852.jpg',
+    image: chapliKababImage,
     isBestSeller: true,
     prepTime: '8 mins',
     spiceLevel: 3,
@@ -93,7 +101,7 @@ export const PRODUCTS: Product[] = [
     category: 'beef-tikka',
     price: 13.49,
     unit: '500g Pack',
-    image: '/src/assets/images/beef_tikka_1781610500217.jpg',
+    image: beefTikkaImage,
     isNew: true,
     prepTime: '12 mins',
     spiceLevel: 3,
@@ -106,7 +114,7 @@ export const PRODUCTS: Product[] = [
     price: 8.99,
     originalPrice: 10.49,
     unit: '20 Pieces (400g)',
-    image: '/src/assets/images/beef_nuggets_1781610542238.jpg',
+    image: beefNuggetsImage,
     prepTime: '5 mins',
     spiceLevel: 0,
   },
@@ -117,7 +125,7 @@ export const PRODUCTS: Product[] = [
     category: 'minced-meat',
     price: 14.99,
     unit: '1kg Pack',
-    image: '/src/assets/images/beef_qeema_1781610523111.jpg',
+    image: beefQeemaImage,
     isBestSeller: true,
     prepTime: '5 mins',
     spiceLevel: 0,
@@ -129,7 +137,7 @@ export const PRODUCTS: Product[] = [
     category: 'minced-meat',
     price: 7.99,
     unit: '500g Pack',
-    image: '/src/assets/images/beef_qeema_1781610523111.jpg',
+    image: beefQeemaImage,
     prepTime: '5 mins',
     spiceLevel: 0,
   },
@@ -141,7 +149,7 @@ export const PRODUCTS: Product[] = [
     price: 29.99,
     originalPrice: 38.00,
     unit: '1.2kg Family Platter',
-    image: '/src/assets/images/bbq_special_1781610562903.jpg',
+    image: bbqSpecialImage,
     isFeatured: true,
     prepTime: '25 mins',
     spiceLevel: 2,
